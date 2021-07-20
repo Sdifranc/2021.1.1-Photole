@@ -261,14 +261,17 @@ The use of these parameters is especially useful to define a dynamic User Filter
 For example, if you have to enable a user with regard to a specific Asset, you may work in two ways:
 
 * _**STATIC**_, where the phases are:
-* create a group for each Asset
-* associate the competent users
-* define a User Filter on the Asset for this group
+
+1. create a group for each Asset
+2. associate the competent users
+3. define a User Filter on the Asset for this group
+
 * _**DYNAMIC:**_
-* create a unique group for the users concerned with the enabling on the Asset
-* create a table where the users are associated with the competent Asset
-* create a dimensional level \(or a new dimension\) on this table
-* create a dynamic User Filter containing the condition like the one shown in the figure
+
+1. create a unique group for the users concerned with the enabling on the Asset
+2. create a table where the users are associated with the competent Asset
+3. create a dimensional level \(or a new dimension\) on this table
+4. create a dynamic User Filter containing the condition like the one shown in the figure
 
 ![](../../.gitbook/assets/21.png)
 

@@ -1,6 +1,6 @@
 # Filters
 
-## Introduction
+### Introduction
 
 The filters are used to select the data for the calculation of the metrics and to limit the data to be included in the report.
 
@@ -13,17 +13,24 @@ Two types of filters can be defined:
 * View Filter applied after the execution of the report, where it is possible to define a condition on the dimensional levels and the metrics in the report.
 * Custom Filter, which is a direct filter that sets a condition on any dimensional level, including those not in the report. When this filter is defined, a new query will be made to the data warehouse.
 
-## View Filter
+### View Filter
 
 View Filter applies the filter condition after the execution of the report. Therefore it is only applicable to the metrics and levels in the report.Riproduci video
 
-{% embed url="https://bitbucket.org/decisyon/manual/downloads/ViewFilter.mp4" caption="" %}
+{% embed url="https://bitbucket.org/decisyon/manual/downloads/ViewFilter.mp4" %}
 
-## Custom Filter
+
+
+### Custom Filter
 
 Custom Filter is a direct filter, that sets a condition on any dimensional level, including those not in the report. When this filter is defined.
 
 A Custom Filter allows you to define a condition on the dimensional levels, as well as any dimensional levels not in the report. Riproduci video
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/19.Filter/Custom%20Filter/CustomFilter.mp4" caption="" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/19.Filter/Custom%20Filter/CustomFilter.mp4" %}
+
+
+
+  
+
 

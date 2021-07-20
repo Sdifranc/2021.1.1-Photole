@@ -22,17 +22,17 @@ Environment variables can be created for all those objects that could change dep
 
 The environment variables used by Design Studio will be created in the operating system where the DS is installed the same thing for the RunTime.
 
-When creating an environment variable in the operating system, the name must start with the prefix DAC\_ENV. \(for example _\*\*%DAC\_ENV\_&lt;parameter&gt;%\*\*\_ \). The Dac will only recognize environment variables with this prefix.
+When creating an environment variable in the operating system, the name must start with the prefix DAC\_ENV. \(for example _**%DAC\_ENV\_&lt;parameter&gt;%**_ \). The Dac will only recognize environment variables with this prefix.
 
-## Summary schema of variables <a id="Summary-schema-of-variables"></a>
+#### Summary schema of variables <a id="Summary-schema-of-variables"></a>
 
 * **SMTP :** the variable must be delimited by the **%** character e.g. %DAC\_ENV\_HOST% to be configured both on the O.S. where the DS is located and on the application server.
-* **API rest:** the variable must be delimited by the  character e.g. to be configured both on the O.S. where the DS is located and on the application server.
-* **Datasource rest:** the variable must be delimited by the  character e.g. to be configured both on the O.S. where the DS is located and on the application server.
+* **API rest:** the variable must be delimited by the **{{ }}** character e.g.{{DAC\_ENV\_HOST }} to be configured both on the O.S. where the DS is located and on the application server.
+* **Datasource rest:** the variable must be delimited by the **{{ }}** character e.g.{{DAC\_ENV\_HOST }} to be configured both on the O.S. where the DS is located and on the application server.
 
 It is possible to consult the list of system variables recognized by the DAC by accessing the "General information" panel "Environment variables of the app composer"
 
-## Log
+#### Log
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/GenerlInfo/4.jpg)
 
@@ -48,7 +48,7 @@ You also set _the level_ of information to be saved for the logging operation. T
 * _FATAL_ errors considered fatal by the system
 * OFF to disable system logging
 
-## Resources
+#### Resources
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/GenerlInfo/5.jpg)
 

@@ -1,6 +1,6 @@
 # Preferences
 
-## Introduction
+### Introduction
 
 For the connection to Microsoft Excel, proceed as follows:
 
@@ -8,9 +8,11 @@ For the connection to Microsoft Excel, proceed as follows:
 2. In **File Path on Client** enter the path, including the Excel file on the client. The Browse button opens the window to select the file.
 3. In **File Path on Server,** enter the path, including the Excel file on the DAC server. The path must start from the name of the unit present on the AS server, which must have visibility privileges on the folder where the file resides.
 
-## Main
+### Main
 
-The system properties relating to Data Model are grouped in the **Main** section in **\*\*the** Tools Properties\*\* window and are subdivided into the sub-groups:
+
+
+The system properties relating to Data Model are grouped in the **Main** section in ****the **Tools Properties** window and are subdivided into the sub-groups:
 
 * **Alert logging**
   * _**Max number of alert execution logs:**_ Allows to set the max number of logs for an alert that can be kept.
@@ -37,7 +39,7 @@ The system properties relating to Data Model are grouped in the **Main** section
   * _**TimeZone:**_ select the user’s time zone. AUTO identifies the time zone automatically.
   * _**enableMultiLanguage:**_ enabe and disable the multilanguage system.
   * _**default-language:**_ set the default language used by the DAC to display content in case of missing labels in the user’s preferred language.
-* **Report temp tables:** In order to operate on the system’s stress levels, by limiting the number of instances of the temporary tables created during execution of the reports:
+* **Report temp tables:**  In order to operate on the system’s stress levels, by limiting the number of instances of the temporary tables created during execution of the reports:
   * _**intermediateMaxRows:**_ for those of the intermediate temporary tables.
   * _**finalMaxRows**_: for the final temporary table, i.e. the table created by the system to populate the report.
 
@@ -53,7 +55,9 @@ The system properties relating to Data Model are grouped in the **Main** section
 * **Users**
   * Subject-fullname: set the sort order to display the user lists
 
-## Web
+### Web
+
+
 
 The configuration properties which impact DAC are in the **Web** item and affect:
 
@@ -74,7 +78,7 @@ _**Note:** when the App Composer container starts, the system updates the value 
 * **Page Navigation**
   * **page-navigation-component:** specifies the minimum time that must elapse without receiving any information from client web before a user’s
 * **Sessions**
-  * **webSessionExpireTimeout \(min\):** If a user does not properly log out of the system, \(e.g. if the user is disconnected from the network or the browser crashes\), the system forces user disconnection from DAC after the period set \(in minutes\) in this property \(by default, 5 min.\). This time is different from a time-out, which is due to user inactivity, and is defined in the DAC _web.xml_ configuration file.  _\*\*_
+  * **webSessionExpireTimeout \(min\):** If a user does not properly log out of the system, \(e.g. if the user is disconnected from the network or the browser crashes\), the system forces user disconnection from DAC after the period set \(in minutes\) in this property \(by default, 5 min.\). This time is different from a time-out, which is due to user inactivity, and is defined in the DAC _web.xml_ configuration file.  ****
   * **showWebClosureConfirm:**If you close the browser, this property enables/disables a confirmation message \(enabled by default\).
 * **Toolbar Settings**
   * **show-menu-items:show-menu-items:** Allow you to select which menu item to make visible on DAC.The default value is ALL. The option are Side Nav Menu and Toolbar Options
@@ -94,7 +98,7 @@ _**Note:** when the App Composer container starts, the system updates the value 
   * **showReportToolbarCollapseButton:**displays/hides the button for opening**/closing** _the report Toolbar in DAC_
   * **startReportToolbarCollapsed:**displays/hides the Report toolbar in DAC when the report Toolbar in DAC is hidden \(**startReportToolbarCollapsed** _enabled_\), \(you can only open it if the button for opening the toolbar is available **showReportToolbarCollapseButton** _enabled_\).
 
-## Email
+### Email
 
 For the connection to Microsoft Excel, proceed as follows:
 

@@ -1,5 +1,7 @@
 # Report
 
+
+
 Reports are tools that allow users to carry out accurate data analysis: it is possible to use cubes and metrics of the application. It will be then possible to request analysis on dimensional levels and metrics for different application cubes, ensuring congruence among elements: dimensional levels and metrics must be linked by at least one cube.
 
 After choosing the desired dimensional levels and metrics for analysis, you can apply filters to restrict the field of observation. Applicable filters are created with the _Direct_ _Filter_ and _Range_ _Filter_ modules, but it is also possible to create filters exclusively for the report.This section describes the functions to **develop reports**. The table lists the main subjects, with a short description and the link to the sub section where they are described.
@@ -187,7 +189,7 @@ To define a custom filter, in the Custom Filters folder, place the cursor on _Fi
 
 ![](../../.gitbook/assets/16%20%285%29.png)
 
-Selecting either item opens a window to define the filter condition. This window has the same functions as the one for direct filters _\(\_see \_Presentation Administrator, Filters section\)._
+Selecting either item opens a window to define the filter condition. This window has the same functions as the one for direct filters _\(_see _Presentation Administrator, Filters section\)._
 
 Choosing _**Define Custom**_ _**Filter**_ allows you to choose any level in the application. If you choose levels found in the report, the condition will be applied during the query and not afterwards.
 
@@ -395,11 +397,12 @@ A DT is activated by setting the properties of the **Drill-through**, group in t
 
 1. in _**drill-groups**_, you can define the number \[_n\]_ of DTs that you want to set in the report; for each of them, the properties _activatedrillthrough\[n\]_ are repeated_;_
 2. you can activate one of the DTs set by selecting the corresponding _**activate drillthrough\[n\]**_ property, each of which enables the specific properties, needed for configuring:
-3. the [DT activation mode](https://docs.decisyon.com/report-design-studio/#_Modalit%C3%A0_di_attivazione) \(_drill-through_\), that tells us whether it is on a specific report level/metric or on the whole report;
-4. the [DT target object](https://docs.decisyon.com/report-design-studio/#_Oggetto_destinazione_del_1) \(_open ActionType_\);
-5. the [page opening mode](https://docs.decisyon.com/report-design-studio/#_Modalit%C3%A0_apertura_pagina);
-6. the setting of an[image and description associated with the DT;](https://docs.decisyon.com/report-design-studio/#_Image_and_description)
-7. the [parameters transfer](https://docs.decisyon.com/report-design-studio/#_Parameters_transfer)
+
+* the [DT activation mode](https://docs.decisyon.com/report-design-studio/#_Modalit%C3%A0_di_attivazione) \(_drill-through_\), that tells us whether it is on a specific report level/metric or on the whole report;
+* the [DT target object](https://docs.decisyon.com/report-design-studio/#_Oggetto_destinazione_del_1) \(_open ActionType_\);
+* the [page opening mode](https://docs.decisyon.com/report-design-studio/#_Modalit%C3%A0_apertura_pagina);
+* the setting of an[image and description associated with the DT;](https://docs.decisyon.com/report-design-studio/#_Image_and_description)
+* the [parameters transfer](https://docs.decisyon.com/report-design-studio/#_Parameters_transfer)
 
 **Note:** _In a graphic display of a report, you can open the DT by clicking on the graphic element \(bar, join point on rows or areas\). Only one DT is open and it is the first one defined._
 
@@ -565,6 +568,8 @@ By default reports are presented as not aggregated . You can request the aggrega
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
 * by **dimension** through the ![](file:///C:\Users\sdifranc\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png) command where aggregation is carried out respecting the fact that levels belong to the same dimension
+
+
 
 ![](../../.gitbook/assets/image%20%289%29.png)
 
@@ -901,9 +906,9 @@ Exporting the report can be subdivided into several Excel spreadsheets. The subd
 
 In addition to previous features, other properties allow you to set the layout; while in the
 
-· _**full-export**_ \(_Excel_ group_\)_ property you can enable the full export of the report. The property is enabled by default and if disabled, limits the export to just the rows and columns displayed.
+·         _**full-export**_ \(_Excel_ group_\)_ property you can enable the full export of the report. The property is enabled by default and if disabled, limits the export to just the rows and columns displayed.
 
-· _**export-report-parameters** \(Excel Group\)_ enables the export of the parameters of the report with the corresponding values.
+·         _**export-report-parameters** \(Excel Group\)_ enables the export of the parameters of the report with the corresponding values.
 
 ### Excel Export with Large Amounts of Data
 
@@ -935,9 +940,9 @@ You can set the export with template via the following properties:
 
 * _**export-with-template**_ enables the export through a template \(by default the property is disabled\)
 
-– _**template**_ name of the file containing the template which needs to be saved in the repository:
+–       _**template**_ name of the file containing the template which needs to be saved in the repository:
 
-– _**auto-adjust-col-width**_ abjusts the size of each column to the contents of the largest cell. If disabled, the size of each collumn will be the same as the one definited in the template.
+–       _**auto-adjust-col-width**_ abjusts the size of each column to the contents of the largest cell. If disabled, the size of each collumn will be the same as the one definited in the template.
 
 The template may consist of one or more Excel spreadsheets. The cells may have any formatting.
 
@@ -951,9 +956,9 @@ The list of export TAGS of a report is shown below \(the TAGS are not case sensi
 
 Each TAG is inserted in only one Excel cell, but the associated object can contain multiple cells, spread over multiple rows and columns. To do this, you need to use formatting TAGS, to prevent an object from overwriting another:
 
-· &lt;NEW\_ROW/&gt; Inserts new rows, as many as the number contained in the object associated with the TAGS on it. Object TAGs are associated with &lt;NEW\_ROW/&gt; only if they are located on the same column and there are only empty cells between them.
+·        &lt;NEW\_ROW/&gt; Inserts new rows, as many as the number contained in the object associated with the TAGS on it. Object TAGs are associated with &lt;NEW\_ROW/&gt; only if they are located on the same column and there are only empty cells between them.
 
-· &lt;NEW\_COL/&gt; Inserts new columns, as many as the number contained in the object associated with the TAG on the left of it. Object TAGs are associated with &lt;NEW\_COL/&gt; only if they are located on the same row and there are only empty cells between them.
+·        &lt;NEW\_COL/&gt; Inserts new columns, as many as the number contained in the object associated with the TAG on the left of it. Object TAGs are associated with &lt;NEW\_COL/&gt; only if they are located on the same row and there are only empty cells between them.
 
 <table>
   <thead>
@@ -1135,7 +1140,7 @@ The properties allow you to:
   * **audit-datasource:** Set the data source where to store the audit logging data
   * **audit-table-name:** The table storing the audit logging data
 * IT’s possible to write the query of editable report even when there are no metrics available in the report .
-* It’s possible to use the system variable in the CRUD statement.
+*  It’s possible to use the system variable in the CRUD statement.
 
 The **Column-Definition** properties of Main group defines report columns settings.
 
@@ -1179,7 +1184,7 @@ The enable-editing properties can not be enabled in the following case:
 
 **API**: DAC Expose a REST Api to write \(insert, update, delete\) rows of a Report. Please see the REST API documentation on RunTime.
 
-Please see how to use the Editable Report with the widget SmartGrid.
+Please see how to use the Editable Report with the widget SmartGrid. 
 
 Example - How to use the editable report into the Smart Grid Widget [View!](page-designer.md)
 

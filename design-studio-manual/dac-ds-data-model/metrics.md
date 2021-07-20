@@ -63,7 +63,7 @@ CREATING A METRIC involves valuing the following fields:
 * **Logical name:** only used by the system
 * **Display name:** to define the name to be shown in the report
 * **Description**: for the developer's notes
-* [**Aggregation**](metrics.md)**:** to select the type of primary aggregation you want to set
+* [**Aggregation**]()**:** to select the type of primary aggregation you want to set
 
 **Note:**
 
@@ -828,7 +828,7 @@ To access the _**Metric functions**_ window, press the ![](../../.gitbook/assets
 
 ![](../../.gitbook/assets/70%20%281%29.png)
 
-The selected function is _**applied to a data set**_ defined in the [Pa](metrics.md)rtitioning_._ _**The data set may also be**_ _**sorted**_ before applying the function \(_Sorting setting\)_.
+The selected function is _**applied to a data set**_ defined in the [Pa]()rtitioning_._ _**The data set may also be**_ _**sorted**_ before applying the function \(_Sorting setting\)_.
 
 For each function, some properties may be customized, in the section at the bottom left. The **Filter** group properties are always present for all of them:
 
@@ -1134,7 +1134,7 @@ The format must be the one of the time level chosen in _**data-level**_ and indi
 
 ![](../../.gitbook/assets/91.png).
 
-This format respects the one set in the property of the _**level-type**_ dimensional level, during the dimension _creation phase \(\_see \_Dimensions, chap._\)
+This format respects the one set in the property of the _**level-type**_ dimensional level, during the dimension _creation phase \(_see _Dimensions, chap._\)
 
 * **DYNAMIC** \(_&lt;Dynamic bucket&gt;_\), indicating the number of events to be added to the current period, in the **bucket-shift** property
 
@@ -1216,7 +1216,7 @@ This forecasting technique produces an exponentially weighted moving average, in
 
 The value expected in the next period Ft+1 is calculated as the sum of two components:
 
-* * The component relating to the series level, calculated in a similar way to [Single Exponential Smoothing](metrics.md)
+* * The component relating to the series level, calculated in a similar way to [Single Exponential Smoothing]()
   * The component relating to the trend
 
 The value at time _t+1_ is calculated as follows:
@@ -1452,7 +1452,7 @@ _The next month \(August 2005\) has a balance equal to € 848,275. The data are
 
 **\(\(Closing Opening** _**Last Month**_**\)-\(Outwards** _**Last Month**_**\)\)+\(Income** _**Last Month**_**\)\)**
 
-_\(429,801-14,327\)+429,801=845,275_
+ _\(429,801-14,327\)+429,801=845,275_
 
 ### Data Shift
 
@@ -1610,49 +1610,49 @@ _// The class implements a metric function._
 
 public class DummyMetricFunction extends MetricFunction{
 
-_// It checks that the metric function can be deleted from the catalog._
+ _// It checks that the metric function can be deleted from the catalog._
 
-public boolean isErasable\(\) {
+ public boolean isErasable\(\) {
 
-return true;}
+ return true;}
 
-_// It checks that the metric function can be relocated from the catalog._
+ _// It checks that the metric function can be relocated from the catalog._
 
-public boolean isFixed\(\) {
+ public boolean isFixed\(\) {
 
-return false;}
+ return false;}
 
-_/\*\*_
+ _/\*\*_
 
-_\* Assessment of the row being read in the datamart of the report._
+ _\* Assessment of the row being read in the datamart of the report._
 
-_\* @param DSmRow: row currently read_
+ _\* @param DSmRow: row currently read_
 
-_\* @param DSmPartition: partition being read_
+ _\* @param DSmPartition: partition being read_
 
-_\* @param endOfPartition: indicates the closure of the partition_
+ _\* @param endOfPartition: indicates the closure of the partition_
 
-_\* @param endOfLoading: indicates the closure of the loading_
+ _\* @param endOfLoading: indicates the closure of the loading_
 
-_\* @param metricValue: value of the metric read in string format_
+ _\* @param metricValue: value of the metric read in string format_
 
-_\* @param metricDoubleValue: value of the metric read in double format_
+ _\* @param metricDoubleValue: value of the metric read in double format_
 
-_\* @throws Exception\*\*/_
+ _\* @throws Exception\*\*/_
 
-public void evaluateRow\(DSmRow DSmRow, DSmPartition DSmPartition, boolean endOfPartition, boolean
+ public void evaluateRow\(DSmRow DSmRow, DSmPartition DSmPartition, boolean endOfPartition, boolean
 
-endOfLoading, Object metricValue, double metricDoubleValue\) throws Exception {
+ endOfLoading, Object metricValue, double metricDoubleValue\) throws Exception {
 
-_//Writing of the result in the datamart of the report._
+ _//Writing of the result in the datamart of the report._
 
-this.DSmDataWriter.writeRow\(DSmRow, DSmPartition, this.metricColumn, 123456789, false\);}
+ this.DSmDataWriter.writeRow\(DSmRow, DSmPartition, this.metricColumn, 123456789, false\);}
 
-_// It returns the name displayed of the metric function._
+ _// It returns the name displayed of the metric function._
 
-public String getDisplayName\(\) {
+ public String getDisplayName\(\) {
 
-return Dummy function;}
+ return Dummy function;}
 
 Example: **Next Using the MetricCustom Metric**
 

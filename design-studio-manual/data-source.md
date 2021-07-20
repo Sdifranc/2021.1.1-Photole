@@ -43,7 +43,7 @@ If the property is disabled, i.e. for NOT READ-ONLY data source, the property is
 
 * **integrate-metric-functions** can be enabled only on the data sources which ARE NOT READ-ONLY. If enabled, in case the operation being performed \(for example the execution of a report\) includes the metric- functions, these will not be run on the remote database, but the temporary tables will be created in the local Data Model and the metric-functions will be applied here.
 
-Some data sources do not perform well when executing metric-functions \(which mainly consist of operations to UPDATE the data in the temporary tables\). Instead in the Database group some specific properties of the database are reported. They coincide with the system ones, Database section.
+Some data sources do not perform well when executing metric-functions \(which mainly consist of operations to UPDATE the data in the temporary tables\).  Instead in the Database group some specific properties of the database are reported. They coincide with the system ones, Database section.
 
 For the **connections to flat files** the file must be present on the Client of DAC and on the DAC Server.
 
@@ -54,6 +54,8 @@ For the **connections to flat files** the file must be present on the Client of 
 The file on the client is used to define the selection queries: the file is actually structured by the system in the form of a table \(with the respective fields\). The file on the server will be used when the connection to the data source has requested access to the data.
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ds3.png)
+
+
 
 Database type selectionPredefined JDBC connection string
 
@@ -143,6 +145,8 @@ If several CSV files exist in the folders indicated, the system will interpret t
 
 ### XML files
 
+
+
 Proceed as follows to connect to an XML file:
 
 * Select XML file as datasource type
@@ -157,11 +161,15 @@ In the **Xml mapping** section set the mapping to build a table, which is then u
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ds8.png)
 
+
+
 * &lt;table&gt; node, the mapping for the table is defined:
+
   * in **name**, the name you want to give the table
   * in **path**, identifies the element in the source file containing the information of interest
   * in **dateFormat**, the format of the dates in the table
   * in **namespaces**, the grouping of names under a single ID which is required to define the pertinence of the various TAGS used in the XML file
+
 * node &lt;column&gt;, the individual columns in the table are defined, indicating:
   * in **name**, the name of the column
   * in **path**, the path where the datum is contained in the XML file relating to the column
@@ -175,10 +183,11 @@ The example proposes the configuration for the connection to an XML file contain
 
 The example proposes the configuration for the connection to an XML file containing information of the employees.
 
-**Step 1: XML Files Connection**
+ **Step 1: XML Files Connection**
 
 ![](https://gblobscdn.gitbook.com/assets%2F-LwNIm22v7i4UWM_U60u%2F-MLl__tN1E_UqA0Kgdri%2F-MLlbX-BR9NM_zcb8LAv%2Fimage.png?alt=media&token=7dfe3153-bdff-41df-b6d3-cbfdb88a383c)
 
+  
 The source file consists of a series of elements empl:employee, which identifies an employee.
 
 Every element empl:employee consists of a set of elements that contain the information relating to the employees.
@@ -195,7 +204,7 @@ The file contains the information relating to employees. In detail the variables
 
 The file must be then selected in the data source.
 
-[**Step 2: XML Mapping**](https://docs.decisyon.com/data-source/)\*\*\*\*
+ [**Step 2: XML Mapping**](https://docs.decisyon.com/data-source/)\*\*\*\*
 
 \*\*\*\*
 
@@ -210,13 +219,15 @@ The information mapped in the source file will be entered virtually into a tempo
 * **name="employees"** Name of the temporary table
 * **path="/empl:employees/empl:employee"** identifies the element of the source file from which to acquire the data \(employees see example above\)
 * **dateFormat="dd-MM-yyyy"** the format of the dates in the table
-* **namespaces="empl:**[http://www.example.com/employees"&gt](http://www.example.com/employees"&gt)**;** the grouping of names under a single identifier which is required to define the pertinence of the various TAGs used in the XML file
+* **namespaces="empl:http://www.example.com/employees"&gt;** the grouping of names under a single identifier which is required to define the pertinence of the various TAGs used in the XML file
 
 Declaration of the columns of the table
 
 * **&lt;column name="firstname"** : Name of the column
 * **type="string"** : type of column, if string or numeric
 * **path="empl:first\_name"** : identifies the information to be entered in the column
+
+
 
 ### Big Data
 
@@ -298,7 +309,7 @@ The parameters you can configure for the data source are:
 
 * **Endpoint**: insert the **Endpoint** where the REST service is available using GET HTTP method.
 
-The endpoint allows the use of variables in the path and the query string.Es: [http://localhost:8081/weather/{{city}}?day={{day}}](http://localhost:8081/weather/{{city}}?day={{day}})
+The endpoint allows the use of variables in the path and the query string.Es: http://localhost:8081/weather/{{city}}?day={{day}}
 
 These variables can also be used in the Headers' values. The parameter must be enclosed between double braces.
 
@@ -313,14 +324,16 @@ Keywords that will contain the info of the bound ASSET service are :
 * **%ASSET.ZONE\_ID%:** for the asset Zone-ID.
 * **%ASSET.URI%:** for the asset url.
 
-Keywords that will contain the info of the bound ANALYTICS FRAMEWORK service are:
+Keywords that will contain the info of the bound ANALYTICS FRAMEWORK service are: 
 
 * **%ANALYTICSFRAMEWORK.ZONE\_ID%** for the analytics framework Zone-ID **.**
 * **%ANALYTICSFRAMEWORK.CATALOGUE\_URI%:** for the analytics framework uri.
 
 **Example:**
 
-_\*\*_%TIMESERIES.URI%/v1/datapoints?query={"start":1472428800,"tags"\[{"name":"SENSOR\_033","limit":100}\]}
+ ****%TIMESERIES.URI%/v1/datapoints?query={"start":1472428800,"tags"\[{"name":"SENSOR\_033","limit":100}\]}
+
+
 
 **Headers**: define the http’s Headers
 
@@ -331,11 +344,11 @@ _\*\*_%TIMESERIES.URI%/v1/datapoints?query={"start":1472428800,"tags"\[{"name":"
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ds14.png)
 
-**Set variables’ default values:** Enables a panel in which you can define the default values of the variables, if provided in the endpoint and / or the headers value.
+**Set variables’ default values:**  Enables a panel in which you can define the default values of the variables, if provided in the endpoint and / or the headers value.
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ds15.png)
 
-Example of endpoint with variable: [http://localhost:8081/turbines?type={{type}}](http://localhost:8081/turbines?type={{type}})
+Example of endpoint with variable: http://localhost:8081/turbines?type={{type}}
 
 When the "type" variable is valued, the values returned by the JSon will be filtered for that value.
 
@@ -377,10 +390,12 @@ To retrieve all rows of an array attribute, you need to set in the attribute con
 
 N.B. the RowElement is no longer mandatory
 
+
+
 **Note:** it’s possible to map in the REST Datasource a JSON that contains two nested arrays.  
 In this way it’s possible to transform it in a tabular format and use it in a report or chart
 
-**CONSTRAINTS**
+ **CONSTRAINTS**
 
 * You can configure only one of special array \(e.g. jsonAttribute\[\*\]\) or special matrix \(e.g. jsonAttribute\[\*\]\[1\]\)
 * When a special array is configured, the rowElement selected have to be the parent attribute
@@ -397,21 +412,21 @@ List of patterns that can be used.
 
 | DESCRIPTION | PATTERN | EXAMPLE |
 | :--- | :--- | :--- |
-| Year | yyyy | 1997 |
-| Year and month | yyyy-MM | 1997-07 |
-| Complete date | yyyy-MM-dd | 1997-07-16 |
-| Complete date plus hours and minutes \(timezone name\) | yyyy-MM-dd'T'HH:mm z | 1997-07-16T19:20 CET |
-| Complete date plus hours, minutes and seconds \(timezone name\) | yyyy-MM-dd'T'HH:mm:ss z | 1997-07-16T19:20:30 CET |
-| Complete date plus hours, minutes, seconds and a decimal fraction of a second \(timezone name\) | yyyy-MM-dd'T'HH:mm:ss.s z | 1997-07-16T19:20:30.45 CET |
-| Complete date plus hours and minutes \(timezone offset\) | yyyy-MM-dd'T'HH:mm Z | 1997-07-16T19:20 +01:00 |
-| Complete date plus hours, minutes and seconds \(timezone offset\) | yyyy-MM-dd'T'HH:mm:ss Z | 1997-07-16T19:20:30 +01:00 |
-| Complete date plus hours, minutes, seconds and a decimal fraction of a second \(timezone offset\) | yyyy-MM-dd'T'HH:mm:ss.s Z | 1997-07-16T19:20:30.45 +01:00 |
+| Year |  yyyy | 1997 |
+| Year and month |  yyyy-MM | 1997-07 |
+| Complete date |  yyyy-MM-dd | 1997-07-16 |
+| Complete date plus hours and minutes \(timezone name\) |  yyyy-MM-dd'T'HH:mm z | 1997-07-16T19:20 CET |
+| Complete date plus hours, minutes and seconds \(timezone name\) |  yyyy-MM-dd'T'HH:mm:ss z | 1997-07-16T19:20:30 CET |
+| Complete date plus hours, minutes, seconds and a decimal fraction of a second \(timezone name\) |  yyyy-MM-dd'T'HH:mm:ss.s z | 1997-07-16T19:20:30.45 CET |
+| Complete date plus hours and minutes \(timezone offset\) |  yyyy-MM-dd'T'HH:mm Z | 1997-07-16T19:20 +01:00 |
+| Complete date plus hours, minutes and seconds \(timezone offset\) |  yyyy-MM-dd'T'HH:mm:ss Z | 1997-07-16T19:20:30 +01:00 |
+| Complete date plus hours, minutes, seconds and a decimal fraction of a second \(timezone offset\) |  yyyy-MM-dd'T'HH:mm:ss.s Z | 1997-07-16T19:20:30.45 +01:00 |
 
 | LEGEND |
 | :--- |
 | yyyy = four-digit year |
 | MM   = two-digit month \(01=January, etc.\) |
-| dd    = two-digit day of month \(01 through 31\) |
+|  dd    = two-digit day of month \(01 through 31\) |
 | hh     = two digits of hour \(00 through 12\) |
 | HH    = two digits of hour \(00 through 23\) \(am/pm NOT allowed\) |
 | mm   =  two digits of minute \(00 through 59\) |
@@ -439,7 +454,7 @@ Creating the Data Source Rest JSon
 
 \*\*\*\*
 
-1. To create a new Data Source, select Tools &gt;&gt; Data Sources and choose as the Data Source type Rest JSon. Select the Configure button.
+1.      To create a new Data Source, select Tools &gt;&gt; Data Sources and choose as the Data Source type Rest JSon. Select the Configure button.
 {% endtab %}
 
 {% tab title="Step 2" %}
@@ -451,7 +466,7 @@ Creating the Data Source Rest JSon
 
 For this example, authentication credentials are not provided.
 
-1. Perform a test to invoke the Endpoint Invocation Endpoint.
+2. Perform a test to invoke the Endpoint Invocation Endpoint.
 {% endtab %}
 
 {% tab title="Step 3" %}
@@ -461,8 +476,9 @@ For this example, authentication credentials are not provided.
 
 In the next panel, JSon payload formatting is defined in tabular formatting.
 
-1. On the left is the structure of the JSon file.
-2. The Show Sample Data button shows the sample data of the JSon being interrogated.
+1.    On the left is the structure of the JSon file.
+
+2.    The Show Sample Data button shows the sample data of the JSon being interrogated.
 
 In this example we can distinguish as JSon Object Turbine while JSon Attributes are Type, Number of Laps, Date, and AVG Power Detected.
 
@@ -479,9 +495,9 @@ In this example we can distinguish as JSon Object Turbine while JSon Attributes 
 {% endtab %}
 
 {% tab title="Step 4" %}
-For dimensional mapping for the remote data source, see Dimensions / Name and Data Source \(STEP 1\)
+ For dimensional mapping for the remote data source, see Dimensions / Name and Data Source \(STEP 1\)
 
-· For cube mapping on the remote data source, see the Cube and Measurements / Name and Data Source \(STEP 1\) section.
+·        For cube mapping on the remote data source, see the Cube and Measurements / Name and Data Source \(STEP 1\) section.
 {% endtab %}
 
 {% tab title="Step 5" %}
@@ -489,7 +505,7 @@ For dimensional mapping for the remote data source, see Dimensions / Name and Da
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ds25.png)
 
-The example shows how JSon data is displayed in a report. It should be noted that for each turbine all the information contained in the JSon attributes is shown.
+The example shows how JSon data is displayed in a report.  It should be noted that for each turbine all the information contained in the JSon attributes is shown.
 
 For the attribute that contains the array of numbers \(N ° of Laps\), the position element 0 was considered as specified at the mapping stage.
 {% endtab %}

@@ -37,7 +37,9 @@ All you will need for this recipe is the Decisyon App Composer \(DAC\) DevBox so
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/WidgetDesigner/1.png)
 
-#### How to do it…
+
+
+####  How to do it…
 
 Here we will take a look at how the following areas of the Widget Catalog can be used.
 
@@ -48,6 +50,8 @@ Here we will take a look at how the following areas of the Widget Catalog can be
 This screenshot shows the different types of objects that can be created using the Create Menu in the Widget Catalog. After selecting a widget type, you have to define the name of the widget. For all the objects created in the catalog, you can use the pop-up menu to copy, paste and rename the object as well as delete the selected object. You can also use drag & drop to move both the folders and widgets inside the catalog.
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/WidgetDesigner/2.png)
+
+
 
 [ ](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/WidgetDesigner/1.png%20)
 
@@ -93,7 +97,11 @@ Once you on the Widget Catalog page, double-click on a widget in your Resource C
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/WidgetDesigner/3.png)
 
-#### How to do it…
+
+
+
+
+####  How to do it…
 
 Here we will take a look at how the different areas of the Widget Editor can be used.
 
@@ -150,11 +158,15 @@ The next screenshot shows the different options in the Settings panel.
 
 The next screenshot shows the different perspectives available in the Widget Editor.
 
+
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/WidgetDesigner/7.png)
 
 **Documentation**
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/WidgetDesigner/8.png)
+
+
 
 ## Getting Started with Custom Widgets
 
@@ -173,7 +185,7 @@ All you will need for this recipe is the Widget Designer IDE and a basic underst
 
 ![](../.gitbook/assets/15.jpeg)
 
-#### How to do it…
+####  How to do it…
 
 Here we will take a look at how to create the application using the Widget Catalog and Editor.
 
@@ -192,7 +204,7 @@ Here we will take a look at how to create the application using the Widget Catal
 ![](../.gitbook/assets/17%20%285%29.png)
 
 * * * We have set the ng-model directive for the Textbox. We use ng-model="name" in the input field to data-bind the input with the model named as "name".
-    * There are two HTML H1 elements. One is set with a template expression \(written with double curly braces and the model name within: \), while other is specified with the ng-bind directive: ng-bind="name".
+    * There are two HTML H1 elements. One is set with a template expression \(written with double curly braces and the model name within: {{name}}\), while other is specified with the ng-bind directive: ng-bind="name".
     * We have set the ng-show directive for the two HTML H1 to display the elements based on the given model value.
     * As we type in the Textbox, both the HTML H1 elements display the value of the Textbox dynamically.
 
@@ -221,7 +233,7 @@ All you will need for this recipe is the Widget Designer IDE and a basic underst
 
 ![](../.gitbook/assets/21.jpeg)
 
-#### How to do it…
+####  How to do it…
 
 Here we will take a look at how to create the application using the Widget Catalog and Editor.
 
@@ -259,7 +271,7 @@ Here we will take a look at how to create the application using the Widget Catal
     * Create and register the directive using DECISYON.ng.register.directive\(‘nameDirective’, ConstructorDirective\).
     * The function passed returns a directive definition object which contains these following properties:
     * restrict: 'E' - this means that the directive will only work as an Element.
-    * template - this specifies the HTML markup that will be produced when the directive is compiled and linked by Angular. This includes HTML, data binding expressions \(\), using the filter dcyTranslate.
+    * template - this specifies the HTML markup that will be produced when the directive is compiled and linked by Angular. This includes HTML, data binding expressions \({{ }}\), using the filter dcyTranslate.
     * controller - this defines the controller that will be associated with the directive template.
     * controllerAs - this defines the controller alias used in the controller code and in the view.
     * bindToController: true - this ensure that properties are bound to the controller instead of the scope. In combination with controllerAs, this lets us access the user variable as currUserCtrl.userInfo.fullname within the view.
@@ -296,7 +308,7 @@ All you will need for this recipe is the Widget Designer IDE and a basic underst
 
 ![](../.gitbook/assets/28%20%281%29.png)![](../.gitbook/assets/29.jpeg)
 
-#### How to do it…
+####  How to do it…
 
 Here we will take a look at how to create the application using the Widget Catalog and Editor.
 

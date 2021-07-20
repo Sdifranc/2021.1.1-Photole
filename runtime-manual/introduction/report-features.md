@@ -2,9 +2,9 @@
 
 ## Page by and Selection type
 
-With the report pages elements it is possible to apply filters to the report. The report pages elements are listed in a drop-down menu, as shown in the following video, where the different selection possibilities are shown:
+With the report pages elements it is possible to apply filters to the report. The report pages elements are listed in a drop-down menu, as shown in the following video, where the different selection possibilities are shown:
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/5.ReportFeature/1.ReportPageBy/PageBySelection.mp4" caption="" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/5.ReportFeature/1.ReportPageBy/PageBySelection.mp4" %}
 
 ## Pop-up Menu
 
@@ -14,7 +14,7 @@ A pop-up menu is available in the report, which can be activated from dimensions
 * **Filters:** Shows the pop-up filters in the rows and columns.
 * **Enable Cells Selection:** Select the cells to be formatted. After selection, the **Disables Selected cells** item is activated, to deselect them.
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/5.ReportFeature/3.Pop-UpMenu/PopUpMenu.mp4" caption="" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/5.ReportFeature/3.Pop-UpMenu/PopUpMenu.mp4" %}
 
 ## Paging
 
@@ -26,11 +26,15 @@ Simply choose the number of rows and columns from the menu available for the **R
 
 ### Sorting
 
+
+
 You can sort the values of the metrics by clicking on the header of the metric to be sorted:
 
 * **Single click**: a descending sort is applied.
 * **Double click**: an ascending sort is applied.
 * **Third click**: the list of items follows the normal report ordering.
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/5.ReportFeature/2.ReportMetricSorting/ReportSorting.mp4" caption="" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/5.ReportFeature/2.ReportMetricSorting/ReportSorting.mp4" %}
+
+
 

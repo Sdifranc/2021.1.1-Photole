@@ -1,18 +1,18 @@
 # Tools
 
-## DAC Settings
+### DAC Settings
 
 Administrators can customize the language and graphic style of the DAC interface.
 
 To change the language used in the application, choose the menu item:
 
-**Tools &gt;&gt; DAC Settings &gt;&gt; Language,** and then select the language to use.
+**Tools &gt;&gt; DAC Settings  &gt;&gt; Language,** and then select the language to use.
 
 Close the DAC and login again in order to apply the language change. When you change the language, all the interface elements are affected, such as menu bars, tooltips, links, and buttons.
 
 The language set on DAC-DS will be the same one displayed on DAC. If a new language is set on DAC, this will also be inherited from DAC-DS.
 
-## Reminders for Administrators
+### Reminders for Administrators
 
 Reminders are available to help administrators to correctly configure all the different DAC modules. These messages will appear as pop-ups when the administrator creates or configures an object. For example, when the addressees of a notice are chosen, a message appears to remind the administrator to give a special license to these users so that they can receive the notice.
 
@@ -22,7 +22,7 @@ You can restore the reminder by selecting the menu item:
 
 **Tools&gt;&gt; App Composer Settings Reset all reminders**
 
-## **Administrator password**
+### **Administrator password**
 
 Administrator user, after the first access to the DAC can change his password. To change the password used in the application, choose the menu item:
 

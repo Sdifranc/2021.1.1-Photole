@@ -1,6 +1,6 @@
 # Application Management
 
-## Starting the Deployment Process
+### Starting the Deployment Process
 
 You can execute the deployment of the existing application from the menu item:
 
@@ -21,7 +21,7 @@ The two options allow:
 * **Deploy all application objects:** Use this option to deploy all of the application objects that have been modified since the last deployment. Design Studio automatically identifies all of those objects that have been modified.
 * **Deploy only selected application objects:** Use this option to select only the specific application objects you want to deploy. You will be prompted, in a separate step, to select the object to deploy.
 
-## Deploy Only Selected Application Objects
+### Deploy Only Selected Application Objects
 
 The second step after selecting the **Deploy only selected application objects** option is the selection of the component to be deployed.
 
@@ -53,7 +53,7 @@ The deploy tool can perform the following operations:
 * **Conflict** \(red\): the same object has been modified in both source and target environments. The conflict is resolved by modifying the object in the target environment.
 * **Restore Add** \(orange\): restore the object that has been deleted in the target environment but still exists in the source environment.
 
-## Deployment of a Page Catalog
+### Deployment of a Page Catalog
 
 When you deploy a Page Catalog, you overwrite the publication in the target environment of common Pages with the source environment by indicating the catalog branches \(groups and sub-groups\) of the source Pages Catalog, in the target environment.
 
@@ -63,7 +63,7 @@ Any images the administrator associates with groups, sub-groups and Page Catalog
 
 **Note:** To indicate the Page catalog, the Pages must already be in the target. You can bring a Page to the Pages Catalog at the same time.
 
-## Deploy User, Groups and Report Catalog Privileges
+### Deploy User, Groups and Report Catalog Privileges
 
 When you Deploy, you replicate groups or user in the source environment and keep their properties deploy in the target environment.
 
@@ -82,7 +82,7 @@ The list of versioning objects includes
 
 * _**Report and folder permissionsà Report Catalog**_
 
-## Deploy Data Sources
+### Deploy Data Sources
 
 There are two steps involved in versioning data sources:
 
@@ -96,7 +96,7 @@ Only the properties are updated, while the pointers of the target data source re
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/5.jpg)
 
-## Share New Application
+### Share New Application
 
 If you select the option to deploy the application in an export file there are some mandatory activities to be performed if you are deploying a new application:
 
@@ -108,7 +108,7 @@ Below you find a schema describing this action.
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/6.jpg)
 
-For example, if you want to bring the application created in the devbox a into the devbox b \(step1\)
+For example, if you want to bring the application created in the devbox a into the devbox b \(step1\)  
 
 It is necessary to create a metadata filein the App Composer available in the devbox b.
 
@@ -137,9 +137,9 @@ Access **Application&gt;&gt; Share** and select **Import.**
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/10.jpg)
 
-**\*\*Once the importing process has finished the new application will be available in the application catalog list** File&gt;&gt; Application Management\*\*.
+ ****Once the importing process has finished the new application will be available in the application catalog list **File&gt;&gt; Application Management**.
 
-## Updating an Application From File
+### Updating an Application From File
 
 In order to update an existing application from a file you need to:
 
@@ -147,7 +147,7 @@ In order to update an existing application from a file you need to:
 * Generate an Export file in the App Composer of the source devbox using the control file in order to update the application in devbox a
 * In the destination devbox \(devbox b\) you can import the Export file. The system now will update the application.
 
-Below you can see the logical flow of this process.
+Below you can see the logical flow of this process. 
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/11.jpg)
 
@@ -176,7 +176,7 @@ Go to **Application** and select **Import .**
 
 Once the import ends the application will be updated with the changes performed in the source application.
 
-## Remove Deleted Application
+### Remove Deleted Application
 
 To delete an Application, you need to access in the Design Studio of the target application
 

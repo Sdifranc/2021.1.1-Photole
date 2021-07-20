@@ -13,6 +13,8 @@ The graph can be customized by editing the property settings for the reports, wh
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/image002.png)
 
+
+
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 _Inside the figure the results of the properties set previously can be recognized through a label. This allows users to immediately identify the property and the corresponding result. In the graph, some properties belonging to the GraphStyle group have been set:_
@@ -105,6 +107,8 @@ A scroll stack column chart is used to compare the cumulative magnitude of multi
 {% endtab %}
 {% endtabs %}
 
+
+
 {% tabs %}
 {% tab title="2D Pareto" %}
 **Pareto** graphs represent the evolution of a phenomenon, by highlighting the cumulative distribution of the percentage each item of the phenomenon is given.
@@ -117,7 +121,7 @@ This representation is particularly suitable for those phenomena where there are
 
 In the graph, each factor of the phenomenon is represented by bars, each one with a different color and arranged in descending order, while a line represents the cumulative percentage distribution: each point shows the cumulative incidence of the phenomenon until 100% is reached on the last element.
 
-The Pareto graph types can be selected in the _**graphStyle**_ property
+The Pareto graph types can be selected in the _**graphStyle**_ property 
 
 * Pareto 2D
 * Pareto 3D
@@ -140,22 +144,34 @@ This type of graph is particularly suited to representing the data of a large nu
 
 {% tabs %}
 {% tab title="Line" %}
+### 
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/Line.png)
+
+### 
 {% endtab %}
 
 {% tab title="Zoom Line" %}
+
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/ZoomLine.png)
 {% endtab %}
 
 {% tab title="Line Spline" %}
+
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/LineSpline.png)
 {% endtab %}
 
 {% tab title="Line Step" %}
+ 
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/LineStep.png)
 {% endtab %}
 
 {% tab title="Line Trend" %}
+ 
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/LineTrend.png)
 {% endtab %}
 {% endtabs %}
@@ -164,6 +180,8 @@ This type of graph is particularly suited to representing the data of a large nu
 
 {% tabs %}
 {% tab title="Bubble" %}
+
+
 In a _**bubble**_ graph the data points are replaced with bubbles. This type of graph does not use any category axis, therefore both the horizontal axis and the vertical axis are used for values. The Z values \(dimension\) are traced in addition to the X and Y values.
 
 To use a bubble graph, you must have a minimum of three data series. The dimensions of the bubbles are calculated from the values in the third series.
@@ -210,9 +228,9 @@ Scatter graphs are useful to show the level of **correlation** \(i.e. linear dep
 
 The representation of this type of graph requires a report with at least two metrics:
 
-· the values of the first metric are placed on the x-axis
+·                 the values of the first metric are placed on the x-axis
 
-· those of the second metric on the y-axis.
+·                 those of the second metric on the y-axis.
 
 The color of all the points is the same and coincides with the first of the palette.
 
@@ -220,7 +238,7 @@ The color of all the points is the same and coincides with the first of the pale
 {% endtab %}
 
 {% tab title="Radar" %}
-The _**graphs created to**_ _**show the achievement of an objective**_ belong to this category.
+The _**graphs created to**_ _**show the achievement of an objective**_ belong to this category. 
 
 In a _**radar**_ graph, also called a spider or star graph due to its appearance, the values of each category are traced along a separate axis that branches off from the center of the graph to the external ring. The **radar** graph is particularly useful for comparing several elements measured on more than two variables. The advantage of this graph is its ability to highlight the differences between one element and another in a simple and immediate manner. Each element assumes a type of form which distinguishes it from the others.
 
@@ -243,7 +261,7 @@ The properties for this type of graph are:
 * _**auto-scale**_, if selected, the graph has a default time interval for the analysis that is between the minimum and the maximum date, of the first metric \(used as the start of the period\) and the second \(used as the end of the period\) respectively_**.**_
 * _**scale-start-end,**_ \(when the _auto-scale_ property is selected_\),_ this allows users to choose the type of period considered instead of using the minor/major date of the report.
 
-The available periods are those shown in the above figure. For example, if the report interval is February 4/November 25, and a monthly period is chosen \(_**scale-start-end**_ per to \_**&lt;**\_Month&gt;\), the system will suggest as the interval February 1/November 30.
+The available periods are those shown in the above figure. For example, if the report interval is February 4/November 25, and a monthly period is chosen \(_**scale-start-end**_ per to _**&lt;**_Month&gt;\), the system will suggest as the interval February 1/November 30.
 
 * If _auto-scale_ is deselected it will be instead possible to choose any period as the period for the analysis: the properties _**from**_ and _**to**_ will be enabled \(beginning and end of current year are suggested as dates\).
 * _**show-today**_ allows you to display or to hide the current day on the graph \(selected by default\).
@@ -258,7 +276,7 @@ Each bar series is associated with a pair of dates \(beginning and end interval\
 {% endtabs %}
 
 {% tabs %}
-{% tab title="3D Column Line    " %}
+{% tab title="3D Column Line	" %}
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/3dColumnLine.png)
 {% endtab %}
 
@@ -285,7 +303,7 @@ As with static graphs, you can also create advanced graphics with flash graphs, 
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/DesignStudio/Graph/CustomLayer.png)
 
-The Custom flash graph type can be selected in the _**graphStyle**_ property
+The Custom flash graph type can be selected in the _**graphStyle**_ property 
 
 * _**Custom Layer**_
 
@@ -375,10 +393,10 @@ The application of properties depends on the graphic style chosen and some style
 More specifically, the properties are \(_GraphStyle_ group\):
 
 * _**graphBackground**_: this is the background color of the graph \(see example below\)
-* _**background-effect**_ \(just for 2D chart\) enables a particular effect for the graph background. \_T\_he effects are:
+* _**background-effect**_ \(just for 2D chart\) enables a particular effect for the graph background. _T_he effects are:
 * _&lt;gradiant&gt;_
 * _&lt;gradient-transparent&gt;_
-* _&lt;none&gt;\_no effect is applied_.\_
+* _&lt;none&gt;_no effect is applied_._
 
 _**Note:**_ _No effect can be applied in Flash 3D graphs._
 
@@ -492,18 +510,18 @@ the property is ONLY enabled FOR STATIC GRAPHS
 
 the properties are ONLY enabled FOR FLASH GRAPHS
 
-* _values-format_ , if enabled, it modifies the value format adding K for thousands and M for millions, to make the displayed values more compact
-* value-rotation to rotate values displayed vertically \(&lt;vertical&gt;\) or horizontally _\(&lt;horizontal&gt;\)_\)
+*  _values-format_ , if enabled, it modifies the value format adding K for thousands and M for millions, to make the displayed values more compact
+*  value-rotation to rotate values displayed vertically \(&lt;vertical&gt;\) or horizontally _\(&lt;horizontal&gt;\)_\)
 
 ONLY FOR STANDARD BAR FLASH GRAPHS \( \(_**Flash 2d Column**_ and _**Flash 3d Column**_\) the property is activated
 
-* values-position is activated to display the data inside _\(&lt;values_\)-inside&gt;\) or outside _\(&lt;values-outside_&gt;\) the bar.
+*  values-position is activated to display the data inside _\(&lt;values_\)-inside&gt;\) or outside _\(&lt;values-outside_&gt;\) the bar.
 
 ONLY FOR LINE A FLASH GRAPHS is the property activated
 
-* show-anchors; enables the display of the points on line type graphs \(enabled by default\)
+*  show-anchors; enables the display of the points on line type graphs \(enabled by default\)
 
-The _**showValues**_ property is not applicable for the [flash type pie graphs](graphs.md), since the _labels-and-values style_ property is available, specific for this type of graph.
+The _**showValues**_ property is not applicable for the [flash type pie graphs](), since the _labels-and-values style_ property is available, specific for this type of graph.
 
 * _**Show Aggregate**_ enables the display of the total sum of the metrics. The metrics sum is calculated only for stack-type graphs, otherwise the value of every metric is shown.
 
@@ -513,7 +531,7 @@ For aggregated values it is possible to set:
 * _**size**_, the font size
 * _**angle**_, the slant
 * _**showTotalCumlatives**_ enables the display of the totals on the graph
-* * layerEffect sets the effect to apply to graph elements:
+* *  layerEffect sets the effect to apply to graph elements:
     * _&lt;glass&gt;_ or &lt;_light&gt;_ for special effects, to customize:
       * _**Direction**_ effect direction
       * _**Raised**_ to set the intensity

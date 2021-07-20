@@ -6,6 +6,8 @@ Reports are created and published by the DAC administrator. You can consult a re
 
 ![](https://docs.decisyon.com/wp-content/uploads/2020/07/ReportIntroduction.jpg)
 
+
+
 A report typically looks like the one in the figure below:
 
 The report name and its folder are displayed in the top left. Selecting each folder displays its contents and directs browsing back to the catalog.
@@ -56,6 +58,10 @@ The type of operation, allowed when importing data via Excel, is defined in the 
 {% hint style="info" %}
 Before importing data from an Excel template into a report, the system validates the excel template and its data.
 {% endhint %}
+
+
+
+
 
 **Structural Validation Criteria:**
 

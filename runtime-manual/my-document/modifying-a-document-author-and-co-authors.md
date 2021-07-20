@@ -7,6 +7,8 @@ The author and co-authors are authorized to modify the document. A user becomes 
 
 The figure below shows the display of a document for a user with edit privileges.
 
+
+
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/12.Document/9.png)
 
 Open **previous versions** of the document
@@ -15,7 +17,11 @@ Click on _**version**_ to open a pop-up window containing the version history \(
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/12.Document/10.png)
 
+
+
 The button located near each version allows you to open the document in the version selected and to edit its content.
 
 If you save a document from a previous version, it overwrites the previous one.
+
+## 
 

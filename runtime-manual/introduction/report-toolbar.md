@@ -18,6 +18,8 @@ _**Compatibility issue**: if you are using version 9.4.2 or 9.4.3 of_ Adobe Acro
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ReportToolbar2.jpg)
 
+
+
 * The row and column lock
 * The editing layout of the crosstab; \(cells grouped together, text at top, shows name levels, fit to page\)
 * The type of regrouping for the drill operations;
@@ -30,6 +32,8 @@ _**Compatibility issue**: if you are using version 9.4.2 or 9.4.3 of_ Adobe Acro
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ReportToolbar4.jpg)
 
+
+
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 The toolbar of the report can be hidden using the up button and reopened with the down button.
@@ -37,6 +41,8 @@ The toolbar of the report can be hidden using the up button and reopened with th
 In the hidden form, the commands for printing and exporting \(to PDF, Excel and CSV\) remain available.
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ReportToolbar5.jpg)
+
+
 
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
@@ -49,6 +55,8 @@ Some configurations also include publication without the toolbar; in these insta
 From the Main section \(**Main**\) of the toolbar, you may select the type of report presentation:
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ReportToolbar6.jpg)
+
+
 
 * Chart;
 * Crosstab;
@@ -76,6 +84,10 @@ Each item opens a window with the list of the following elements:
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/ReportToolbar10.jpg)
 
+
+
+
+
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 **Show report range filters** opens a window with the filter ranges applied to the report. For each filter the name and formula are indicated:
@@ -86,5 +98,7 @@ Each item opens a window with the list of the following elements:
 
 In this video you will learn how to navigate and use the self service BI capabilities:
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/6.ReportToolbar/ReportToolbar.mp4" caption="" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/6.ReportToolbar/ReportToolbar.mp4" %}
+
+
 
