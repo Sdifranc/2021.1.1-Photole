@@ -45,7 +45,7 @@ _For level mapping, the field of the table is associated:_
 
 * _LK\_GEO\_AREA.DESCRIPTION for the Geography Area level,_
 * _LK\_GEO\_REGION..DESCRIPTION for the Region level_
-*  _LK\_GEO\_PROVINCE.DESCRIPTION for the Province level_
+* _LK\_GEO\_PROVINCE.DESCRIPTION for the Province level_
 
 _The hierarchy mapping between Geography Area and Region is expressed by the link between the keys \(join\):_
 
@@ -146,7 +146,7 @@ The selection of this item enables the _**Scheme Owner**_ field where the Data M
 
 * _**Remote,**_ to be specified if the dimension data is reported in a remote Remote Connection.
 
- Selecting this item enables the menu with the list of data sources configured using the Datasource
+  Selecting this item enables the menu with the list of data sources configured using the Datasource
 
 the datasources are listed which an alias has been assigned to \(_**alias-name property**_, on the Datasource Designer\). For those _Custom_ types, also the Java communication class with DAC must be assigned \(in _**customDBAdapterClass property**_\).
 
@@ -338,8 +338,6 @@ _In this example, “Short DS” concatenated with a short description also appe
 
 The dimensions defined in the application are available to the end users on DAC \(only if matched to a cube\).
 
-
-
 ![](../../.gitbook/assets/image.png)
 
 The users may enter a dimensional level in the published or new reports.
@@ -443,8 +441,7 @@ You select one of the date formats listed in the format-type _**property.**_ The
 Selecting _&lt;Date&gt;_ for the **level-type property** also enables the property:
 
 * **view-format** which sets a customized formatting of the data fields of the database. From the button near the property, a window is opened, where in the **Value** field the time data format corresponding to the one mapped in **Column@ID** is entered by respecting the indications of the legend; in **Preview** the result is shown which is obtained from the chosen format.
-* 
-![](../../.gitbook/assets/image%20%2838%29.png)
+* ![](../../.gitbook/assets/image%20%2838%29.png)
 
 Example of How to Set the Local Date Format
 
@@ -497,8 +494,6 @@ DAC allows you to define the mapping on levels in recursive hierarchy among homo
 DAC also allows you to map unbalanced recursive hierarchy levels, like in the hierarchy between homogeneous elements. Typical examples are the hierarchy of the resources, compared to the company roles, or the income statement items. This unbalance is due to the fact that each branch of the hierarchy may have a variable number of levels.
 
 These types of relations are recursive and are represented by the entity linked to the element in the hierarchy, in relation to itself, as shown in the figure.
-
-
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
@@ -572,7 +567,7 @@ _Regarding the example, the mapping which defines the dimension on Decisyon is c
 * _The same number of levels is created as those in the hierarchy structure: 5 \(those of the longest branch\)_
 * _For each level the table created previously is associated \(step 2 of this example\): the key is the resource one, the description is the field relating to the role; the parent-child-level property is selected at each level_
 * _The hierarchy-root property is enabled at the first level \(Role1\) and the following is defined:_
-  *  _the condition which identifies the first level: PARENT\_ID = 999; a window opens with the fields of the table associated with the level. Conditions on different tables may also be included in the formula._
+  * _the condition which identifies the first level: PARENT\_ID = 999; a window opens with the fields of the table associated with the level. Conditions on different tables may also be included in the formula._
   * _The key field relating to the parent: PARENT\_ID_
 * _The hierarchy is defined among the 5 levels, in the standard mode: at the top of the highest level of hierarchical order, down to the lowest order_
 
@@ -609,7 +604,7 @@ The table creation takes place when saving the dimension. It may also be regener
 
 ## **TUTORIAL**
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/CreateDimension/CreateDimension.mp4" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/CreateDimension/CreateDimension.mp4" caption="" %}
 
 \*\*\*\*
 

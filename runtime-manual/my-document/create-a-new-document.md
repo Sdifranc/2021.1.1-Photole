@@ -10,7 +10,7 @@ There are also tagging fields \(_category_ and _tag_\).
 
 The top right button opens a window where you define the document visibility, edit and comment privileges. In particular; you can select users or spaces to associate the document with.
 
-The save _**draft**_ button allows you to save a draft of the document that can only be viewed by the user who created it. 
+The save _**draft**_ button allows you to save a draft of the document that can only be viewed by the user who created it.
 
 ![](../../.gitbook/assets/5%20%287%29.png)
 
@@ -31,7 +31,7 @@ The following items are listed on the **Insert** menu:
 * Insert Video
 * Insert Link
 
-### Inserting a Page
+## Inserting a Page
 
 The **Insert Page** menu item allows you to insert a Page directly in the document.
 
@@ -43,27 +43,21 @@ Re-dimensioning may take place also using the cursor.
 
 **Note:** Re-dimensioning using the cursor is only supported if the browser has its zoom at 100%.
 
-### Inserting a Video
+## Inserting a Video
 
 The **Insert Video** menu item allows you to insert a video originating from an external resource, such as _YouTube_.
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/12.Document/5.png)
 
-
-
 General **Section** you enter the **link to a video** and define dimensions and proportions
 
 Alternatively, you can enter **the HTML** code relative to **the video in the** Embed section.
 
-### Inserting a URL Link
+## Inserting a URL Link
 
 The **Insert** **Link** menu item allows you to insert a link to an external page.
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/12.Document/6.png)
 
-
-
 \*\*\*\*
-
-## 
 

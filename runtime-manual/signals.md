@@ -8,7 +8,5 @@ A **signal** is a tool that allows you to quickly and easily share one or more c
 * Documents
 * Social spaces
 
-{% embed url="https://bitbucket.org/decisyon/manual/downloads/Signal.mp4" %}
-
-
+{% embed url="https://bitbucket.org/decisyon/manual/downloads/Signal.mp4" caption="" %}
 

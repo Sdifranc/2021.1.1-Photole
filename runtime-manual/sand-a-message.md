@@ -1,16 +1,14 @@
 # Sand a Message
 
-  
-DAC allows users to interact with each other in real time. Communication between users occurs with text messages whose function mirrors the chat function.
+DAC allows users to interact with each other in real time. Communication between users occurs with text messages whose function mirrors the chat function.
 
 A message can be addressed to one or more people. So, you can establish a chat with a single person or a group - it is nevertheless private to the person or group that you establish the chat with.
 
-A window opens like the one shown in the figure below.
+A window opens like the one shown in the figure below.
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/SendMessage/1.png)
 
-  
-You can send a text message from different sections where there is a reference to the user, such as from a user profile or the author of content, etc.
+You can send a text message from different sections where there is a reference to the user, such as from a user profile or the author of content, etc.
 
 The messages received are viewed on the Top menu of the user involved in the communication, on the notification button.
 

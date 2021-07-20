@@ -29,10 +29,5 @@ KEY: NullPointerException.
 
 **Watch the video tutorial to learn more about the feature**
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/ErrorMessage/CustomError.mp4" %}
-
-
-
-  
-
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/ErrorMessage/CustomError.mp4" caption="" %}
 

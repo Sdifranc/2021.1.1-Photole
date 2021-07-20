@@ -2,7 +2,7 @@
 
 Trough the Rest API Client you can configure a call by a third party endpoint to take advantage of the services within the DAC. It means that you can push data and features in any legacy technology.
 
-The REST API, defined by the REST client, uses the HTTP protocol to send, retrieve data and responses in JSON format.  You can use standard HTTP methods to view,  update, or delete resources via the API.
+The REST API, defined by the REST client, uses the HTTP protocol to send, retrieve data and responses in JSON format. You can use standard HTTP methods to view, update, or delete resources via the API.
 
 During the API configuration phase, you can define:
 

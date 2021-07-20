@@ -2,9 +2,9 @@
 
 ## Introduction
 
-DAC provides a set of functions for OLAP analysis. These functions allow you to easily select and display data dynamically, and examine it from different points of view. OLAP analysis is available on dashboard components, and on reports opened from the catalog. OLAP [drill]() or [slice & dice]() type analysis can be run on the dashboard components, such as graphs and tables
+DAC provides a set of functions for OLAP analysis. These functions allow you to easily select and display data dynamically, and examine it from different points of view. OLAP analysis is available on dashboard components, and on reports opened from the catalog. OLAP [drill](untitled.md) or [slice & dice](untitled.md) type analysis can be run on the dashboard components, such as graphs and tables
 
-On reports opened from the catalog, you can move the dimensional levels to any position. This allows you to perform [pivoting operations]() and any change of perspective when viewing the data.
+On reports opened from the catalog, you can move the dimensional levels to any position. This allows you to perform [pivoting operations](untitled.md) and any change of perspective when viewing the data.
 
 The drill-up and drill-down analyses allow you to display the data of a multidimensional report with different levels of detail; in fact, the hierarchical structuring of the dimensions allows you to see the information at different _aggregate_ \(**drill-up**\) or _sidebar_ \(**drill-down**\) levels. DAC offers various grouping methods:
 
@@ -12,7 +12,7 @@ The drill-up and drill-down analyses allow you to display the data of a multidim
 * Drill with **new dimensional levels**
   * By creating **new groupings** in _custom_ mode
   * By inserting layers of the application, using **Pop-up drill**
-* Making or not making the _parent_ level visible, i.e. depending on whether or not the [hierarchical drill]() is active.
+* Making or not making the _parent_ level visible, i.e. depending on whether or not the [hierarchical drill](untitled.md) is active.
 
 ## Drill on Report Items
 
@@ -34,8 +34,6 @@ When you run drill-down operations in standard mode \(shown in the previous para
 ### Example: Table/Graph Hierarchical Drill
 
 ![](https://docs.decisyon.com/wp-content/uploads/2020/07/Graph-Hierarchical-Drill%E2%80%8B.jpg)
-
-
 
 _For the report in the figure, a drill-down was run for year 2006 and month February, thus showing the Business Unit, which is the maximum level of detail._
 

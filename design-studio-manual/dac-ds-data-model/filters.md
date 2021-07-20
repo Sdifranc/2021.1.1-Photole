@@ -1,6 +1,6 @@
 # Filters
 
- A filter specifies the conditions that the data must meet so that:
+A filter specifies the conditions that the data must meet so that:
 
 * it may be displayed in a report
 * or it may be used in the calculation of filtered metrics.
@@ -28,8 +28,6 @@ A direct filter is defined in the window opened from the menu item:
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/DF1.png)
 
-
-
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 The filter condition may be expressed compared to the dimensional levels of the application. When typing the formula, you are supported by a Content Assist.
@@ -46,8 +44,6 @@ In the formula of the filter it is possible to enter a SQL instruction: for exam
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df2.png)
 
-
-
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 ### Filter Condition on Dimensional Levels
@@ -56,13 +52,11 @@ If you want to apply a Filter condition on dimensional levels, you must select t
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df3.png)
 
-
-
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 Dimensional levels are structured for Cubes. You must first select the Cube at the top of the hierarchy, and then the levels.
 
- In the cub’s list are available the dimensions not associated to the cube.
+In the cub’s list are available the dimensions not associated to the cube.
 
 The “field @ID” key fields and “Field@DS ” description field are indicated for each level. You set these fields when you are creating the Dimension \(see Mapping dimensional levels section\). The Filter condition can be expressed on the “ID” or on the “Description”.
 
@@ -74,8 +68,6 @@ For example, if you define two levels with the displayed name “Customer Type�
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df4.png)
 
-
-
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 As shown in the figure, several functions and operators are available if you want to create a new Filter. You can also manually enter the SQL instructions in the formula definition area \(the green check allows you to validate the formula entered\).
@@ -83,8 +75,6 @@ As shown in the figure, several functions and operators are available if you wan
 The top button allows you to select the values of the key field or description of the level selected. A window opens listing the values of both fields. The value selected appears in the foreground. The figure below shows that the Customer Type@Description field has been selected.
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df5.png)
-
-
 
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
@@ -95,8 +85,6 @@ Once you have identified the values to be filtered, check them. When you close t
 The predefined functions to be used to write the Filter condition are in the **formula definition area** at the top.
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df6.png)
-
-
 
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
@@ -131,8 +119,6 @@ When you **select the level**, you activate content assist to select certain spe
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df8.png)
 
-
-
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
 * **IN\(\)** allows you to enter a list of values between brackets.
@@ -144,8 +130,6 @@ If the dimensional level is descriptive, the system adds quotation marks inside 
 * **IN\(…\)** if you have selected it, the system displays the list of values for the selected level in a new window in multi selection.
 
 ![](https://docs.decisyon.com/wp-content/uploads/2021/01/df10.png)
-
-
 
 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
 
@@ -159,11 +143,11 @@ If the dimensional level is descriptive, the system adds quotation marks inside 
 
 ## Range Filters
 
-Range filters define conditions on the metrics, already defined with the [Metrics Management]() module.
+Range filters define conditions on the metrics, already defined with the [Metrics Management](filters.md) module.
 
 Filters are then associated with the reports, which apply the conditions defined to the set of data as a whole.
 
-The dimensioned range filters apply the filter condition on the data previously [partitioned for one or more dimensional levels](); on this partitioning it is possible to [apply additional filters, of the direct type](), to refine the filter criterion further.
+The dimensioned range filters apply the filter condition on the data previously [partitioned for one or more dimensional levels](filters.md); on this partitioning it is possible to [apply additional filters, of the direct type](filters.md), to refine the filter criterion further.
 
 A range filter is created in the window opened from the menu item:
 
@@ -177,9 +161,9 @@ In the _Metrics_ folder, select the metrics on which to apply the filter conditi
 
 The system also specifies the mathematical, comparison and logical operators to be entered in the formula using the correct buttons at the top of the lower text box.
 
-Select the dimensional levels for the [data partitioning]() in the _Dimensions_ folder.
+Select the dimensional levels for the [data partitioning](filters.md) in the _Dimensions_ folder.
 
-In the _Direct Filter_ folder, select the [direct filters]() to be applied to the partitioned data.
+In the _Direct Filter_ folder, select the [direct filters](filters.md) to be applied to the partitioned data.
 
 In the next example, a simple Range Filter is defined to obtain the years with sales below a target, in a report which only has the year level.
 
@@ -271,7 +255,7 @@ User parameters can be used in **Direct Filters**. Then data will be filtered ac
 * _%U\_username%_ : Username of the user
 * _%U\_subjectName%_: Full name of user
 * _%U\_mail% and_ %U\_phone%_: user_ e-mail address and phone number
-* _%U\_attribute\_\[n\]% \(\[n\]=1-5\)_: five attributes associated with the user
+* _%U\_attribute\_\[n\]% \(\[n\]=1-5\)\_: five attributes associated with the user
 
 **Note:**
 

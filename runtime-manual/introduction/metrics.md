@@ -1,6 +1,6 @@
 # Metrics
 
-### Introduction
+## Introduction
 
 In addition to using default metrics, you can also create new ones.
 
@@ -10,22 +10,15 @@ The format of the metrics pertains to the style and color of the characters, as 
 
 The decoration formatting of the metrics can only be defined in a development environment.
 
-### Creating a Composite Metrics
+## Creating a Composite Metrics
 
 Combine the metrics in the report to create a new, composite metric.Riproduci video
 
-{% embed url="https://bitbucket.org/decisyon/manual/downloads/MetricComposite.mp4" %}
+{% embed url="https://bitbucket.org/decisyon/manual/downloads/MetricComposite.mp4" caption="" %}
 
-
-
-### Formatting a Metric
+## Formatting a Metric
 
 Define a custom format for each metric, and the color to assign to a metric to denote the metric value.
 
-{% embed url="https://bitbucket.org/decisyon/manual/downloads/FormattingMetric.mp4" %}
-
-
-
-  
-
+{% embed url="https://bitbucket.org/decisyon/manual/downloads/FormattingMetric.mp4" caption="" %}
 

@@ -1,6 +1,6 @@
 # Application
 
-An **Application** is the means to create a specific IIoT solution. Using the DevBox it is possible to create one or more applications; each of these applications can pertain to a different scope, department, project, etc.
+An **Application** is the means to create a specific IIoT solution. Using the DevBox it is possible to create one or more applications; each of these applications can pertain to a different scope, department, project, etc.
 
 For example, if a manufacturing company wants to optimize asset management using DAC, it can create an application that gets data from the asset, obtaining real-time analysis and predicting failures or maintenance. Each application can be built using one or more pages and functionality that can be configured and arranged to deliver data and tools according to the business users’ requirements.
 
@@ -18,7 +18,7 @@ Functions are also available to deploy applications, which lets you:
 
 * manage an application on different environments, for example, to manage a production or test application, rather than a development applicationcopy and then synchronize objects belonging to different applications \(however, objects created within applications belong exclusively to the applications\)
 
-### Create Application
+## Create Application
 
 DAC applications are created from the **Manage Application** window, opened from the menu item:
 
@@ -35,7 +35,7 @@ You create an application by defining the fields indicated in the figure above:
 * **Default DB Schema**: select the database schema that contains the data used for the analysis
 * **Open this application at login:** if selected, the application is opened at the next login
 
-### Opening Decisyon App Composer
+## Opening Decisyon App Composer
 
 A DAC application is a set of different objects and functions that you bring together to create the functionality you need. For example, an application contains pages and a rules schedule which are configurable.
 
@@ -53,32 +53,30 @@ The **Recently used** table shows the latest edited objects, in chronological or
 The **Shortcuts** section contains direct links for access to:
 
 * **Page designer:** for the creation of a new Page.
-*  Rule Setup: for the creation of new rules.
+* Rule Setup: for the creation of new rules.
 * User management: for the creation and management of the users.
 * Group management: for the creation and management of the groups.
 * Deploy Application: access to the wizard to execute the deployment.
 
 In the **Help Quick Links** section links are available to access DAC documentation:
 
-·        **Getting Started:** tutorials that explain how to create a new application.
+· **Getting Started:** tutorials that explain how to create a new application.
 
-·        **Design Studio User Manual:** access to the Developer manual \(this one\)
+· **Design Studio User Manual:** access to the Developer manual \(this one\)
 
-·        **DAC User Manual:** access to the end user manual.
+· **DAC User Manual:** access to the end user manual.
 
 When DAC is opened, information about the connection is shown at the bottom:
 
 * **User:** Connected User.
-*  **Connection:** Data Model, in terms of Hostname and Database.
+* **Connection:** Data Model, in terms of Hostname and Database.
 * **Application:** Application loaded.
 
 \*\*\*\*
 
 ![](../.gitbook/assets/image%20%2824%29.png)
 
-
-
-### The Toolbar
+## The Toolbar
 
 The DAC-DS toolbar is shown in the following figure:
 
@@ -91,7 +89,7 @@ As the mouse moves over a button, the tooltip is enabled, providing a short desc
 |  |  |  |
 | :--- | :--- | :--- |
 | **1** | Reports Catalog |  |
-| 2 | Report Editor  |  |
+| 2 | Report Editor |  |
 | 3 | Dimension management \(see Dimensions\) |  |
 | 4 | Cube management \(see Cubes and measures section\) |  |
 | 5 | Metric Management \(see Metrics\) |  |
@@ -107,7 +105,7 @@ As the mouse moves over a button, the tooltip is enabled, providing a short desc
 | 15 | Object Explorer \(see Managing Application Objects\) |  |
 | 16 | Online Help Search Box **\(**see Online Help\) |  |
 
-### Object Dependencies
+## Object Dependencies
 
 You can see the dependencies of DAC\_DS objects through the **Dependencies** menu item, enabled by right-clicking the mouse in the management windows.
 

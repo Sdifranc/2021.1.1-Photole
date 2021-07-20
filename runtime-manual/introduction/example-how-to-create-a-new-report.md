@@ -2,10 +2,5 @@
 
 In this video will show how to create a new report.
 
-{% embed url="https://bitbucket.org/decisyon/manual/downloads/CreateReport.mp4" %}
-
-
-
-  
-
+{% embed url="https://bitbucket.org/decisyon/manual/downloads/CreateReport.mp4" caption="" %}
 

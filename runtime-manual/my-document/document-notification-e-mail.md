@@ -10,9 +10,5 @@ The users involved are
 
 Each one receives a specific e-mail, which also takes account of the recipient's language.
 
-
-
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/12.Document/12.png)
-
-
 

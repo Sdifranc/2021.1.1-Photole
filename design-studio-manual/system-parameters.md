@@ -1,6 +1,6 @@
 # System Parameters
 
-### Introduction
+## Introduction
 
 The **System Parameters** are as follows:
 
@@ -15,7 +15,7 @@ The **System Parameters** are as follows:
 * **% TENANTS% :** Contains a CSV string made up tenants’ ID. If the Business User is associated with no tenants, variable contain no value.
 * **%CURRENT\_TENANT%:** Contains the current working session for the selected tenant ID. If the Business User is associated with no tenants, variable contains a constant ID.
 
-### User Parameters and Attributes
+## User Parameters and Attributes
 
 DAC allows user parameters to be used not only in the formulas of metrics and levels, but also in the following objects:
 
@@ -32,12 +32,11 @@ The user parameters are:
 * _**%U\_mail%**_ , for the e-mail address;
 * _**%U\_phone%**_, for the phone number;
 * _**%SUBJECT\_ID%**_ , for the user ID in DAC;
-* _**%U\_attribute\_\[n\]%**_, with n=1-5, for the 5 attributes that can be assigned to a user in the **Attribute** folder.
+* _\*\*%U\_attribute\_\[n\]%**\_, with n=1-5, for the 5 attributes that can be assigned to a user in the** Attribute\*\* folder.
 * _**%GROUPS%,**_ for the groups the user belongs to \(if the user belongs to several groups, the parameter lists the group codes in square brackets, separated by a comma: e.g. \[123,345\]\).
 * **%G\_GroupName%**, it’s the ID attribute of the group\(s\) nodes in DAC.
 * **%G\_GroupUserMemberName%**, it’s the ID attribute of the group\(s\) members.
 * _**%U\_utc\_real\_offset%,**_ shows the offset with respect to the UTC \(considers the solar and hemisphere time\). It is expressed in hours \(or fractions of hours\) in which the decimal separator is the dot ‘.’ \(4 3.5 2.25 5.75\).
 
-_**% U\_language%,**_ shows the lan  
-
+_**% U\_language%,**_ shows the lan
 

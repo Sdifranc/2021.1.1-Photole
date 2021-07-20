@@ -26,5 +26,3 @@ For this type of publication, any changes to the document are notified in the st
 
 When you select “Enable” and deselect “Open to new answers”, you can freeze the comments: that is, you can display those comments added up to that moment and not allow others to be added.
 
-## 
-

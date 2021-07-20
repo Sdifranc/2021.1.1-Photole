@@ -1,6 +1,6 @@
 # Export Report
 
-### Introduction
+## Introduction
 
 You can export report in one of the following formats:
 
@@ -10,23 +10,21 @@ You can export report in one of the following formats:
 
 These functions are available both as commands on the report toolbar, in the main section, and from the pop-up menu.
 
-### PDF
+## PDF
 
 Export Report in PDF formats
 
-{% embed url="https://bitbucket.org/decisyon/manual/downloads/Exporting\_Report.mp4" %}
+{% embed url="https://bitbucket.org/decisyon/manual/downloads/Exporting\_Report.mp4" caption="" %}
 
-
-
-### MS Excel File
+## MS Excel File
 
 You can export in Excel format by clicking the Excel button on the Report toolbar’s **Visualization** section.
 
- ****DAC prompts you with a dialog window, where you specify the folder to save the file in. By default, DAC assigns the file the same name as the report. Type over that name if you want to change it.
+_\*\*_DAC prompts you with a dialog window, where you specify the folder to save the file in. By default, DAC assigns the file the same name as the report. Type over that name if you want to change it.
 
 If the report is saved successfully, DAC displays a confirmation message that indicates the path where the report was saved as a MS Excel file.
 
-### CSV
+## CSV
 
 You can export in CSV format by clicking the CSV button on the Report toolbar’s **Visualization** section.
 

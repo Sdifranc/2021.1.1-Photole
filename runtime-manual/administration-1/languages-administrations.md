@@ -12,233 +12,33 @@ The list of languages to support is the following:
 * **Supported but not distributed**: it’s possible only to add the languages as business lables, but not system labels
 * **Not supported**: it’s not possible to ass this language
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Language</b>
-      </th>
-      <th style="text-align:left"><b>Distributed</b>
-      </th>
-      <th style="text-align:left"><b>Supported, not distributed</b>
-      </th>
-      <th style="text-align:left"><b>Not Supported</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">English</td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/check_mark_64.png"
-        alt=":check_mark:" />
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Italian</td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/check_mark_64.png"
-        alt=":check_mark:" />
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">French</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Chinese</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Spanish</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Portuguese</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Hungarian</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Turkish</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Polish</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">German</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Russian</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Swedish</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Bulgarian</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Latvian</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png"
-        alt=":cross_mark:" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Malaysian</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png"
-        alt=":cross_mark:" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Japanese</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png"
-        alt=":cross_mark:" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Korean</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png"
-        alt=":cross_mark:" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Thilandese</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png"
-        alt=":cross_mark:" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Vietnamese</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png"
-        alt=":cross_mark:" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Czech</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Danish</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Finland</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Kazakstan</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Ukraine</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">India (marathi)*</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (5).png" alt/>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| **Language** | **Distributed** | **Supported, not distributed** | **Not Supported** |
+| :--- | :--- | :--- | :--- |
+| English | ![:check\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/check_mark_64.png) |  |  |
+| Italian | ![:check\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/check_mark_64.png) |  |  |
+| French |  | ![](../../.gitbook/assets/image%20%285%29.png) |  |
+| Chinese |  | ![](../../.gitbook/assets/image%20%285%29%20%283%29.png) |  |
+| Spanish |  | ![](../../.gitbook/assets/image%20%285%29%20%2814%29.png) |  |
+| Portuguese |  | ![](../../.gitbook/assets/image%20%285%29%20%282%29.png) |  |
+| Hungarian |  | ![](../../.gitbook/assets/image%20%285%29%20%287%29.png) |  |
+| Turkish |  | ![](../../.gitbook/assets/image%20%285%29%20%2813%29.png) |  |
+| Polish |  | ![](../../.gitbook/assets/image%20%285%29%20%285%29.png) |  |
+| German |  | ![](../../.gitbook/assets/image%20%285%29%20%2812%29.png) |  |
+| Russian |  | ![](../../.gitbook/assets/image%20%285%29%20%288%29.png) |  |
+| Swedish |  | ![](../../.gitbook/assets/image%20%285%29%20%284%29.png) |  |
+| Bulgarian |  | ![](../../.gitbook/assets/image%20%285%29%20%2811%29.png) |  |
+| Latvian |  |  | ![:cross\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png) |
+| Malaysian |  |  | ![:cross\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png) |
+| Japanese |  |  | ![:cross\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png) |
+| Korean |  |  | ![:cross\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png) |
+| Thilandese |  |  | ![:cross\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png) |
+| Vietnamese |  |  | ![:cross\_mark:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/cross_mark_64.png) |
+| Czech |  | ![](../../.gitbook/assets/image%20%285%29%20%2815%29.png) |  |
+| Danish |  | ![](../../.gitbook/assets/image%20%285%29%20%289%29.png) |  |
+| Finland |  | ![](../../.gitbook/assets/image%20%285%29%20%2816%29.png) |  |
+| Kazakstan |  | ![](../../.gitbook/assets/image%20%285%29%20%281%29.png) |  |
+| Ukraine |  | ![](../../.gitbook/assets/image%20%285%29%20%2810%29.png) |  |
+| India \(marathi\)\* |  | ![](../../.gitbook/assets/image%20%285%29%20%286%29.png) |  |
 
 |  |
 | :--- |

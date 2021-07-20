@@ -4,17 +4,17 @@
 
 The Application can contain one or more **pages** where the business user can analyze data, collaborate with colleagues, perform analysis and take actions. DAC pages are designed using the "Design Studio" and consumed in "DAC". Pages are composed using one or more widgets. Widgets can be entered on the Page, making the applications and data analyses particularly efficient. In addition the layout was designed so that you can have the most complete picture possible on a single page. The page structure and layout are defined in **Decisyon App Composer** and distributed to the final users using the **DAC** module, which is an intuitive interface, even for inexperienced users.
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/1.PagePresentation/PagePresentation.mp4" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/1.PagePresentation/PagePresentation.mp4" caption="" %}
 
 ### Page Widget
 
 **Widgets** are the fundamental bricks of a page and provide specific functionalities that you can leverage to build your page. Each widget has its own configuration properties; a page contains one or more widgets and you can also create interactions on them and they can leverage the same data.
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/Widget/Widgets.mp4" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/Widget/Widgets.mp4" caption="" %}
 
 ### Page Creation
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/3.PageCreation/PageCreation.mp4" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/3.PageCreation/PageCreation.mp4" caption="" %}
 
 #### Default Title for a Page
 
@@ -26,7 +26,7 @@ When you access **DAC**, the title of the page will be the same as the name defi
 
 ### Page Publishing
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/4.PagePublication/PagePublishing.mp4" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/DesignStudio/4.PagePublication/PagePublishing.mp4" caption="" %}
 
 **Page Preview**
 
@@ -50,7 +50,7 @@ Also the Page page and the section are associated with a container.
 
 Components copied from another cell or from another Page can be pasted into a cell. If it is pasted on a cell ‘taken up’ by another component, the system asks for confirmation and if confirmed, the old component is removed and replaced with a new one.
 
-In the container, define the Container Style positioning and visibility , the  \(_**Container Size**_ dimensions\), a title and a \(_**description**_\).
+In the container, define the Container Style positioning and visibility , the \(_**Container Size**_ dimensions\), a title and a \(_**description**_\).
 
 Some elements of the Page are enabled for the configuration of a border and a background \(uniform color or images\).
 
@@ -112,8 +112,6 @@ _The control queries on the Text Fields return the two ‘hidden’ and ‘visib
 
 ### Container Size \(Dimensioning\)
 
-#### 
-
 The dimensions of the container may be defined in **absolute value** \(pixel\) or as a **percentage**. By default **auto-expand** is activated with regard to the dimensions of the component, with the possibility of setting a **maximum dimension** allowed; the scrollbars are activated once this is exceeded. If the auto-expand is disabled the dimensions taken are those of the container and, if the object is larger, the scrollbars activate.
 
 The properties for dimensioning the container are \(_Container_ folder, _Container Size_ group\):
@@ -132,7 +130,7 @@ The following elements are an exception to this behavior:
 
 ### Container Style \( Background and Image \)
 
- You can customize some elements:
+You can customize some elements:
 
 * the same page of the Page
 * the sections of the Page
@@ -273,7 +271,7 @@ _You can now configure_
 
 The parameters exported and imported by the widgets inserted into the Page Design can be quickly displayed through an intuitive Widget Parameters menu.
 
-https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/1.jpg
+[https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/1.jpg](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/1.jpg)
 
 To display the Widget Parameters menu, simply right click on a widget of the page to enable the contextual menu, and then choose _**Show In/Out Parameters**_ item.
 
@@ -297,23 +295,23 @@ _Parameter\_NAME_ could also arrive consequently to a Drill-through.
 
 For each object, the filter application mode is subsequently distinguished, in the property:
 
-* _**auto-filter type**_ by _****_selecting one of the following:
+* _**auto-filter type**_ by \__\*\*_\_selecting one of the following:
 
-–        _only&gt; VIEW filter type._
+– _only&gt; VIEW filter type._
 
-–        _filters&gt; VIEW filter type if the level is in the report, CUSTOM if the level is not there._
+– _filters&gt; VIEW filter type if the level is in the report, CUSTOM if the level is not there._
 
-–        _only&gt; CUSTOM type filter._
+– _only&gt; CUSTOM type filter._
 
-–        _no_ application of the filter.
+– _no_ application of the filter.
 
 The individual widgets, in addition to automatic filters, have the properties to enter other filter conditions:
 
 * _**filter**_ opens a window to enter the condition in two separate modes:
 
-–       property of a **component associated with a report**
+– property of a **component associated with a report**
 
-–       property of a **selection/entry form component**
+– property of a **selection/entry form component**
 
 For the filter conditions, a content assist is active to facilitate the writing of the condition \(See next paragraph\).
 
@@ -331,7 +329,7 @@ By selecting the level you enable _content_ _assist_ for the selection of some s
 
 If the dimensional level is descriptive, the system enters the commas inside the brackets, otherwise the values will be inserted without any commas.
 
-* **IN \(…\)** if ****you have selected it, the system displays the list of values for the selected level in a new window in multi selection.
+* **IN \(…\)** if _\*\*_you have selected it, the system displays the list of values for the selected level in a new window in multi selection.
 * **IN\(\[?**_NAME\_LEVEL?\]_**\)** for the level chosen a filter condition is proposed on the same level, indicated as a parameter.
 
 This way, as soon as you export the selected level \(e.g. YEAR\) to an object of the Page, the report will be filtered by it.
@@ -369,9 +367,8 @@ the components will be displayed only when all parameters are valued_**.**_
 The global setting may be _customized subsequently on each individual component:_
 
 1. select the _component_
-2. in the **params-mandatory-type** property ****\(_Parameters_ group\) select:
-
-* _&lt;page-default&gt;_
+2. in the **params-mandatory-type** property _\*\*_\(_Parameters_ group\) select:
+3. _&lt;page-default&gt;_
 
 where all the parameters selected in the _params-mandatory_ property of the page are all considered mandatory_**.**_
 
@@ -379,7 +376,7 @@ where all the parameters selected in the _params-mandatory_ property of the page
 
 to set the specific mandatory parameters of the component; the selection of this item enables the following:
 
-−      _**settings**_
+− _**settings**_
 
 opens a window where it is possible to select the mandatory parameters of the component, among those defined in the Page. If at least one parameter is chosen, enable:
 
@@ -389,8 +386,8 @@ opens a window where it is possible to select the mandatory parameters of the co
 
 Default values, applied to the parameter when it is not valued, may be applied in two different ways and defined in _**apply-type**_:
 
-* &lt;_&lt;initial-value&gt;_the default is applied only to the first access to the Page
-* &lt;_&lt;default-_value&gt;the default value is applied to each access
+* &lt;\_&lt;initial-value&gt;\_the default is applied only to the first access to the Page
+* &lt;\_&lt;default-\_value&gt;the default value is applied to each access
 
 Default values are not applied if the parameters are already valued \(e.g. originating from another page\) when the Page is accessed.
 
@@ -457,7 +454,7 @@ _The Report Material Quantity shows the quantity entered and the operator who lo
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/29.jpg)
 
- ****_The Page was created as shown in the figure. The components used are:_
+_\*\*The Page was created as shown in the figure. The components used are:_
 
 * _Text Field \(SubjectName\) to display the complete name of the user_
 * _Text Field \(Username\) to display the username_
@@ -489,7 +486,7 @@ By enabling the **autoCleanParams** property \(_Advanced_ group\) of the Page pa
 
 By selecting the page folder, the parameters return to the initial value and the filtered objects are also restored to the initial situation, i.e. when the filters had not yet been applied. This procedure also takes place when the Page is opened in drill-through.
 
-#### Enabling Debug Mode \(_Debug-_mode\)
+#### Enabling Debug Mode \(\_Debug-\_mode\)
 
 The debug function of the Page is enabled with the Debug_**-mode property**_ \(_Main_ group\), which displays the parameters of the page, with the respective values:
 
@@ -520,12 +517,12 @@ The following example shows how to “condition” the list of values of a Selec
 
 Example: **Dependency of a Select object by an object Select**
 
-https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/32.jpg
+[https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/32.jpg](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/32.jpg)
 
 _For the first Select object, which selects the geographical area, the following properties are involved:_
 
 * _the formName property specifies the name that identifies the component in the parameter selection windows \(Area\);_
-* _the sql-formula property specifies the query \(select LK\_AREA.ID \_ AREA, LK\_AREA.DS\_AREA from DEMO\_BI.LK\_AREA\) to run to populate the component itself;_
+* _the sql-formula property specifies the query \(select LK\_AREA.ID \_ AREA, LK\_AREA.DS\_AREA from DEMO\_BI.LK\_AREA\) to run to populate the component itself;\_
 
 _For the second Select object, which selects the regions, the following properties are involved:_
 
@@ -562,7 +559,7 @@ Example
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/35.jpg)
 
- _The figure shows the Page page structure in DAC. Note that the components used to apply filters and described in the previous examples were placed at the top, while a Crosstab type report was inserted at the bottom._
+_The figure shows the Page page structure in DAC. Note that the components used to apply filters and described in the previous examples were placed at the top, while a Crosstab type report was inserted at the bottom._
 
 _For the Crosstab component, the property involved to allow the application of filters based on the selections of the Select and Checklist objects, is the filter property._
 
@@ -572,7 +569,7 @@ _In the example, the report is filtered by Area, Region and Province. Note that 
 
 _The figure shows the above Page page displayed in DAC. Note how the report data is filtered based on the selection of the parameters AREA, REGION and PROVINCE defined in the Select and Checklist objects._
 
-https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/32.jpg![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/36.jpg)
+[https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/32.jpg!\[\]\(https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/36.jpg](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/32.jpg![]%28https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/36.jpg)\)
 
 ### **Indicator Components Filtered by Select**
 
@@ -622,7 +619,7 @@ _The activateExpParams property enables exporting parameters relating to the lev
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/RunTime/Parameters/41.jpg)
 
- _For the second Graph component, the property involved to allow the application of filters based on the selections of the levels of the first report is the filter property, as shown on the left._
+_For the second Graph component, the property involved to allow the application of filters based on the selections of the levels of the first report is the filter property, as shown on the left._
 
 _Note that Business\_Unit is the name of the layer exported and shown in the exp-levels property of the first report which is put between two question marks “?” to identify it as a parameter._
 
@@ -692,20 +689,15 @@ In this example you can understand how to configure the editable report and how 
 
 See Tutorial:
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/DataGrid/DataGrid2.mp4" %}
-
-
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/DataGrid/DataGrid2.mp4" caption="" %}
 
 ### Example - How to import the recod using the Excel files.
 
-  
 When you enable the "enable import via Excel" property present in the property group of the page designer for the Smart Grid Widget, you have the possibility to import the data through an excel file.
 
 See Tutorial:
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/DataGrid/DownloadUpload.mp4" %}
-
-
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/DataGrid/DownloadUpload.mp4" caption="" %}
 
 \_\_
 

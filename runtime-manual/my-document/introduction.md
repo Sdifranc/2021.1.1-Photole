@@ -12,5 +12,3 @@ Documents can also be published on social spaces. This is where users can read o
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-## 
-
