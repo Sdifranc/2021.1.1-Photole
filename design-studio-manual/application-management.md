@@ -21,7 +21,7 @@ The two options allow:
 * **Deploy all application objects:** Use this option to deploy all of the application objects that have been modified since the last deployment. Design Studio automatically identifies all of those objects that have been modified.
 * **Deploy only selected application objects:** Use this option to select only the specific application objects you want to deploy. You will be prompted, in a separate step, to select the object to deploy.
 
-## Deploy Only Selected Application Objects
+### Deploy Only Selected Application Objects
 
 The second step after selecting the **Deploy only selected application objects** option is the selection of the component to be deployed.
 
@@ -53,7 +53,7 @@ The deploy tool can perform the following operations:
 * **Conflict** \(red\): the same object has been modified in both source and target environments. The conflict is resolved by modifying the object in the target environment.
 * **Restore Add** \(orange\): restore the object that has been deleted in the target environment but still exists in the source environment.
 
-## Deployment of a Page Catalog
+### Deployment of a Page Catalog
 
 When you deploy a Page Catalog, you overwrite the publication in the target environment of common Pages with the source environment by indicating the catalog branches \(groups and sub-groups\) of the source Pages Catalog, in the target environment.
 
@@ -63,7 +63,7 @@ Any images the administrator associates with groups, sub-groups and Page Catalog
 
 **Note:** To indicate the Page catalog, the Pages must already be in the target. You can bring a Page to the Pages Catalog at the same time.
 
-## Deploy User, Groups and Report Catalog Privileges
+### Deploy User, Groups and Report Catalog Privileges
 
 When you Deploy, you replicate groups or user in the source environment and keep their properties deploy in the target environment.
 
@@ -82,7 +82,7 @@ The list of versioning objects includes
 
 * _**Report and folder permissionsà Report Catalog**_
 
-## Deploy Data Sources
+### Deploy Data Sources
 
 There are two steps involved in versioning data sources:
 
