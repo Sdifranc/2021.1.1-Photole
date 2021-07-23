@@ -137,7 +137,11 @@ Access **Application&gt;&gt; Share** and select **Import.**
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/10.jpg)
 
-**\*\*Once the importing process has finished the new application will be available in the application catalog list** File&gt;&gt; Application Management\*\*.
+Once the importing process has finished the new application will be available in the application catalog list **File&gt;&gt; Application Management**.
+
+{% hint style="info" %}
+If it is not possible to access the design studio of the target environment, it is possible to generate the metadata file and perform the import operation, by accessing the runtime of the target environment . For more information see the documentation
+{% endhint %}
 
 ## Updating an Application From File
 

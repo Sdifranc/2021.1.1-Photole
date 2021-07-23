@@ -2,9 +2,9 @@
 
 In this video you will learn how to control user creation their settings.
 
-{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/10.Users/CreateUser.mp4" %}
+{% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/3.Ludwig/10.Users/CreateUser.mp4" caption="" %}
 
-### **Users Scope**
+## **Users Scope**
 
 The users created within DAC can be associated at different scopes:
 
