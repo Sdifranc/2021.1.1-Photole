@@ -1,6 +1,6 @@
 # Application Management
 
-## Starting the Deployment Process
+### Starting the Deployment Process
 
 You can execute the deployment of the existing application from the menu item:
 
@@ -96,19 +96,19 @@ Only the properties are updated, while the pointers of the target data source re
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/5.jpg)
 
-## Share New Application
+### Share New Application
 
 If you select the option to deploy the application in an export file there are some mandatory activities to be performed if you are deploying a new application:
 
-* Generate a metadata file for a new application in the App Composer available in the  environment where you want to deploy your new application.
-* In the source App Composer , use the metadata file to create an Export file that includes the deployment instructions.
-* In the App Composer of the destination environment  you need to import the Export file. At this point the system creates the application.
+* Generate a metadata file for a new application in the App Composer available in the DevBox where you want to deploy your new application.
+* In the source App Composer DevBox, use the metadata file to create an Export file that includes the deployment instructions.
+* In the App Composer of the destination DevBox you need to import the Export file. At this point the system creates the application.
 
 Below you find a schema describing this action.
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/6.jpg)
 
-For example, if you want to bring the application created in the devbox a into the devbox b \(step1\)
+For example, if you want to bring the application created in the devbox a into the devbox b \(step1\)  
 
 It is necessary to create a metadata filein the App Composer available in the devbox b.
 
@@ -137,13 +137,9 @@ Access **Application&gt;&gt; Share** and select **Import.**
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/10.jpg)
 
-Once the importing process has finished the new application will be available in the application catalog list **File&gt;&gt; Application Management**.
+ ****Once the importing process has finished the new application will be available in the application catalog list **File&gt;&gt; Application Management**.
 
-{% hint style="info" %}
-If it is not possible to access the design studio of the target environment, it is possible to generate the metadata file and perform the import operation, by accessing the runtime of the target environment . For more information see the documentation
-{% endhint %}
-
-## Updating an Application From File
+### Updating an Application From File
 
 In order to update an existing application from a file you need to:
 
@@ -151,7 +147,7 @@ In order to update an existing application from a file you need to:
 * Generate an Export file in the App Composer of the source devbox using the control file in order to update the application in devbox a
 * In the destination devbox \(devbox b\) you can import the Export file. The system now will update the application.
 
-Below you can see the logical flow of this process.
+Below you can see the logical flow of this process. 
 
 ![](https://dac-docs.s3-us-west-1.amazonaws.com/ImgSito/Deploy/11.jpg)
 
@@ -180,7 +176,7 @@ Go to **Application** and select **Import .**
 
 Once the import ends the application will be updated with the changes performed in the source application.
 
-## Remove Deleted Application
+### Remove Deleted Application
 
 To delete an Application, you need to access in the Design Studio of the target application
 

@@ -15,7 +15,7 @@ Two types of filters can be defined:
 
 ### View Filter
 
-View Filter applies the filter condition after the execution of the report. Therefore it is only applicable to the metrics and levels in the report.Riproduci video
+View Filter applies the filter condition after the execution of the report. Therefore it is only applicable to the metrics and levels in the report.
 
 {% embed url="https://bitbucket.org/decisyon/manual/downloads/ViewFilter.mp4" %}
 
@@ -25,7 +25,7 @@ View Filter applies the filter condition after the execution of the report. Ther
 
 Custom Filter is a direct filter, that sets a condition on any dimensional level, including those not in the report. When this filter is defined.
 
-A Custom Filter allows you to define a condition on the dimensional levels, as well as any dimensional levels not in the report. Riproduci video
+A Custom Filter allows you to define a condition on the dimensional levels, as well as any dimensional levels not in the report. 
 
 {% embed url="https://dac-docs.s3-us-west-1.amazonaws.com/1.MatildaJakeJalapeno/19.Filter/Custom%20Filter/CustomFilter.mp4" %}
 
