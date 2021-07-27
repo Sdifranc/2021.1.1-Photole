@@ -12,7 +12,7 @@ The decoration formatting of the metrics can only be defined in a development en
 
 ## Creating a Composite Metrics
 
-Combine the metrics in the report to create a new, composite metric.
+Combine the metrics in the report to create a new, composite metric.Riproduci video
 
 {% embed url="https://bitbucket.org/decisyon/manual/downloads/MetricComposite.mp4" caption="" %}
 
